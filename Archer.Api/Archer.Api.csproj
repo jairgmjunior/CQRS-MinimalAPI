@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Archer.Application.Input\Archer.Application.Input.csproj" />
+    <ProjectReference Include="..\Archer.Application.Output\Archer.Application.Output.csproj" />
+    <ProjectReference Include="..\Archer.Infrastructure.Input\Archer.Infrastructure.Input.csproj" />
+    <ProjectReference Include="..\Archer.Infrastructure.Output\Archer.Infrastructure.Output.csproj" />
+  </ItemGroup>
+
+</Project>
